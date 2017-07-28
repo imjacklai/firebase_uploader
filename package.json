@@ -1,0 +1,15 @@
+{
+  "name": "firebase_uploader",
+  "version": "1.0.0",
+  "description": "Upload files to firebase storage and write its' url to firebase database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jack Lai",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^4.1.5",
+    "google-cloud": "^0.56.0"
+  }
+}

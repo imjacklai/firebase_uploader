@@ -1,0 +1,20 @@
+var firebase = {
+  apiKey: "<apiKey>",
+  authDomain: "<projectId>.firebaseapp.com",
+  databaseURL: "https://<projectId>.firebaseio.com",
+  projectId: "<projectId>",
+  storageBucket: "<projectId>.appspot.com",
+  messagingSenderId: "<messagingSenderId>",
+  keyFilename: "<keyFilename>"
+};
+
+var user = {
+  email: "<email>",
+  password: "<password>"
+};
+
+var dirname = "<files directory path>";
+
+exports.firebase = firebase;
+exports.user = user;
+exports.dirname = dirname;
