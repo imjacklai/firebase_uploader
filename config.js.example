@@ -14,7 +14,9 @@ var user = {
 };
 
 var dirname = "<files directory path>";
+var root_node = "<name of database root node>";
 
 exports.firebase = firebase;
 exports.user = user;
 exports.dirname = dirname;
+exports.root_node = root_node;

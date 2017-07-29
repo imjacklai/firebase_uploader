@@ -53,7 +53,7 @@ function uploadFile(dirname, filename, isLast) {
       }
 
       const name = filename.split(".")[0];
-      firebase.database().ref(`test/${name}`).set({ imageUrl: url }, function(err) {
+      firebase.database().ref(`${config.root_node}/${name}`).set({ imageUrl: url }, function(err) {
         if (err) {
           console.log(`Failed to write database: ${err}`);
           return;

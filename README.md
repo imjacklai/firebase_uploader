@@ -41,4 +41,10 @@ Setup your files directory.
 var dirname = "<files directory path>";
 ```
 
+Setup database root node.
+
+```
+var root_node = "<name of database root node>";
+```
+
 `$ npm start` to upload files!
